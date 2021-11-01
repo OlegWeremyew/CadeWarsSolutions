@@ -7,3 +7,11 @@ Note: Don't worry, all inputs will be strings, and every string is a perfectly v
 var stringToNumber = function(str){
     return parseInt(str);
   }
+
+  /*
+  Examples
+"1234" --> 1234
+"605"  --> 605
+"1405" --> 1405
+"-7" --> -7
+*/
