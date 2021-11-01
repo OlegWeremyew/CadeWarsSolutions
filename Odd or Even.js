@@ -14,3 +14,15 @@ function oddOrEven(array) {
       return "even";
     }
   }
+
+  /*
+Examples:
+Input: [0]
+Output: "even"
+
+Input: [0, 1, 4]
+Output: "odd"
+
+Input: [0, -1, -5]
+Output: "even"
+  */
