@@ -8,3 +8,10 @@ function isPalindrome(line) {
     let reverse = str.split("").reverse().join('');
     return (reverse == line)? true: false;
   }
+
+  /*
+isPalindrome("anna")   ==> true
+isPalindrome("walter") ==> false
+isPalindrome(12321)    ==> true
+isPalindrome(123456)   ==> false
+  */
