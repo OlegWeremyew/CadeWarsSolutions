@@ -7,3 +7,9 @@ What ways of achieving this do you know?
 function numberToString(num) {
     return String(num);
   }
+
+  /*
+Examples:
+123 --> "123"
+999 --> "999"
+  */
