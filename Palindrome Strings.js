@@ -3,8 +3,17 @@ A palindrome is a word, phrase, number, or other sequence of characters which re
 
 Implement a function that checks if something is a palindrome. If the input is a number, convert it to string first.
 */
+
 function isPalindrome(line) {
     let str = line.toString();
     let reverse = str.split("").reverse().join('');
     return (reverse == line) ? true : false;
 }
+
+
+/*
+isPalindrome("anna")   ==> true
+isPalindrome("walter") ==> false
+isPalindrome(12321)    ==> true
+isPalindrome(123456)   ==> false
+*/
