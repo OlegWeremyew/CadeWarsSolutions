@@ -8,3 +8,11 @@ Examples: (Input --> output)
 2 --> 9 (sum of the cubes of 1 and 2 is 1 + 8)
 3 --> 36 (sum of the cubes of 1, 2, and 3 is 1 + 8 + 27)
 */
+
+function sumCubes(n) {
+    let sum = 0;
+    for (let i = 0; i <= n; i++) {
+        sum += i ** 3;
+    }
+    return sum;
+}
