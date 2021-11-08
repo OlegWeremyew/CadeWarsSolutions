@@ -1,3 +1,5 @@
+/*
+Remember the spongebob meme that is meant to make fun of people by repeating what they say in a mocking way?*/
 function spongeMeme(sentence) {
     let low = sentence.toLowerCase();
     let arr = low.split('');
