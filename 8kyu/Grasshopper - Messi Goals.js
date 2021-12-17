@@ -1,8 +1,8 @@
-var laLigaGoals = 43;
-var championsLeagueGoals = 10;
-var copaDelReyGoals = 5
+let laLigaGoals = 43;
+let championsLeagueGoals = 10;
+let copaDelReyGoals = 5
 
-var totalGoals = laLigaGoals + championsLeagueGoals + copaDelReyGoals;
+let totalGoals = laLigaGoals + championsLeagueGoals + copaDelReyGoals;
 
 /*
 Messi goal scoring statistics:
