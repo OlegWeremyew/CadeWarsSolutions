@@ -1,15 +1,15 @@
 //Given three integers a ,b ,c, return the largest number obtained after inserting the following operators and brackets: +, *, ()
 //In other words , try every combination of a,b,c with [*+()] , and return the Maximum Obtained
 
-function squareArea(A){
+function squareArea(A) {
     let R;//radius
     let S;//square
     let out;
-    R = ( (2 * A) / Math.PI );
+    R = ((2 * A) / Math.PI);
     S = R * R;
     out = S.toFixed(2);
     return +out;
-  }
+}
 
 //   With the numbers are 1, 2 and 3 , here are some ways of placing signs and brackets:
 // 1 * (2 + 3) = 5
