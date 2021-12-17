@@ -4,6 +4,7 @@ Consider an array/list of sheep where some sheep may be missing from their place
 
 function countSheeps(arrayOfSheep) {
     let counter = 0;
+
     for (let i = 0; i < arrayOfSheep.length; i++) {
         if (arrayOfSheep[i] === true) {
             counter += 1;
@@ -11,6 +12,7 @@ function countSheeps(arrayOfSheep) {
             counter;
         }
     }
+
     return counter;
 
 }
