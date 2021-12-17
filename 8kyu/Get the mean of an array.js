@@ -5,6 +5,6 @@ Return the average of the given array rounded down to its nearest integer.
 
 The array will never be empty.
 */
-function getAverage(marks){
+function getAverage(marks) {
     return sum = Math.floor(marks.reduce((sum, current) => sum + current, 0) / marks.length);
-  };
+};
