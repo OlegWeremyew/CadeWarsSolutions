@@ -6,9 +6,14 @@ It should remove all values from list a, which are present in list b keeping the
 arrayDi
  */
 
+function arrayDiff(myArray, toRemove) {
+    const filteredArray = myArray.filter(function (x) {
+        return toRemove.indexOf(x) < 0;
+    });
+    return filteredArray
+}
 
-
-
+console.log(arrayDiff([1, 2, 3], [1, 2]))
 
 
 /*
