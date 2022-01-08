@@ -4,7 +4,11 @@ A western man is trying to find gold in a river. To do that, he passes a bucket 
 So, you need to check if there is gold in the bucket, and if so, return True/true. If not, return False/false.
  */
 
+let checkTheBucket = arr => arr.includes('gold')
 
+/*function checkTheBucket(bucket){
+    return bucket.includes('gold');
+}*/
 
 
 console.log(checkTheBucket("stone", "stone", "stone", "stone", "gold"))
