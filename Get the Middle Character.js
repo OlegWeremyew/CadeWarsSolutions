@@ -1,5 +1,14 @@
 
+function getMiddle(str){
+    let num = Math.ceil((str.length / 2)-1)
+    if(str.length % 2 === 0) {
+        return str[num] + str[num + 1]
+    } else {
+        return str[num]
+    }
+}
 
+console.log(getMiddle("middle"))
 
 
 /*
