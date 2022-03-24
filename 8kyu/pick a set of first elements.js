@@ -1,4 +1,9 @@
+let arr = ['a', 'b', 'c', 'd', 'e'];
 
+function first(arr, n) {
+    if (n === undefined) return arr.slice(0, 1)
+    return arr.slice(0, n)
+}
 
 
 /*
