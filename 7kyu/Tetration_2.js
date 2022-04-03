@@ -1,4 +1,14 @@
+function tetration(x, y) {
+    if (y < 1) return 1;
+    let sum = 0;
+    while (y >= 0) {
+        sum = Math.pow(x, sum);
+        y--;
+    }
+    return sum;
+}
 
+console.log(tetration(4,0), 1)
 
 /*
 Multiplication can be thought of as repeated addition. Exponentiation can be thought of as repeated multiplication. Tetration is repeated exponentiation. Just as the 4th power of 3 is 3*3*3*3, the 4th tetration of 3 is 3^3^3^3. By convention, we insert parentheses from right to left, so the 4th tetration of 3 is 3^(3^(3^3))) = 3^(3^27) = 3^7625597484987 = a really big number
