@@ -1,6 +1,5 @@
 const ageInDays = (year, mon, day) =>
     `You are ${(new Date() - new Date(year, --mon, day)) / 8.64e7 ^ 0} days old`;
-
 console.log(ageInDays(1994, 6, 6))
 
 /*
