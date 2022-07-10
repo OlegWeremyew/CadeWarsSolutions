@@ -13,12 +13,12 @@ if bmi > 30 return "Obese"
 function bmi(weight, height) {
     let a = weight / height ** 2
     if (a <= 18.5) {
-        return  "Underweight"
+        return  "Underweight";
     } else if (a <= 25.0) {
         return  "Normal"
     } else if (a <= 30.0) {
-        return  "Overweight"
+        return  "Overweight";
     } else {
-        return  "Obese"
+        return  "Obese";
     }
 }
